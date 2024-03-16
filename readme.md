@@ -4,4 +4,5 @@ My learning trajectory of the C/C++ languages.
 
 ## Resources
 
-- gcc 12.2.0
+- GCC 12.2.0
+- GNU Make 4.3
