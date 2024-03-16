@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "print_date.h"
-#include "print_greetings.h"
+#include "lib/print_date.h"
+#include "lib/print_greetings.h"
 
 //int argc, char *argv[]
 int main() {
