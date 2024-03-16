@@ -1,31 +1,15 @@
 # Hello world!
 
-## Before Build
+## Build & Run 
 
 ```bash
-mkdir dist
-```
-
-## Final Build 
-
-```bash
-g++ -std=c++17 -W -Wall -Wextra -Werror -pedantic -O3 ./main.cpp -o ./dist/helloWorld
-```
-
-then
-
-```bash
+make build
 ./dist/helloWorld
 ```
 
-## Debug Build
+## Debug & Run
 
 ```bash
-g++ -std=c++17 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -W -Wall -Wextra -Werror -pedantic ./main.cpp -o ./dist/helloWorldDebug
-```
-
-then
-
-```bash
+make debug 
 ./dist/helloWorldDebug
 ```
