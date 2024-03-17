@@ -7,10 +7,10 @@ before:
 	mkdir --parents dist
 
 build: before
-	g++ $(BUILD_FLAGS) ./*.cpp ./**/*.cpp -o ./dist/helloWorld
+	g++ $(BUILD_FLAGS) ./src/*.cpp ./src/**/*.cpp -o ./dist/helloWorld
 
 debug: before
-	g++ $(DEBUG_FLASG) ./*.cpp ./**/*.cpp -o ./dist/helloWorldDebug
+	g++ $(DEBUG_FLASG) ./src/*.cpp ./src/**/*.cpp -o ./dist/helloWorldDebug
 
 clean:
 	rm -rf --preserve-root ./dist
