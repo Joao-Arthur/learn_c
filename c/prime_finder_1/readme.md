@@ -1,15 +1,15 @@
 # Hello world!
 
-## Build & Run 
+## Build & Run
 
 ```bash
 make build
-./dist/helloWorld
+./dist/primeFinder
 ```
 
 ## Debug & Run
 
 ```bash
 make debug
-./dist/helloWorldDebug
+./dist/primeFinder
 ```
